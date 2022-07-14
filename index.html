@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./clash-royale/images/LogoImage.png">
+    </header>
+    <div class="card" id="card">
+        <button class="disabled-btn" id="prev-btn" onclick="prev()">◀</button>
+        <div class="card-container">
+            <img class="card-img" id="img-character" src="./clash-royale/images/arquero.png">
+            <!-- <div class="btn-area"> -->
+            <button class="name-btn" id="character-name" onclick="characterInfo()">Arquero</button>
+            <!-- </div> -->
+
+        </div>
+
+        <button class="card-btn" id="next-btn" onclick="next()">▶</button>
+
+
+    </div>
+
+    <div class="card infoCard" id="card-info">
+        <button class="back-btn" onclick="back()">Back</button>
+        <div class="cardInfo-container">
+            <img class="card-img infoImg" id="imgInfo" src="./clash-royale/images/arquero.png">
+            <div class="textInfo-container">
+
+                <h1 class="titleInfo" id="title-info">Arquero</h1>
+                <p class="infoText" id="text-info">
+                    Dispara una flecha mágica que atraviesa y daña a los enemigos que se interponen en su
+                    camino. No es
+                    ningún truco, ¡es magia! Arquero mágico es una carta de rareza legendaria de Clash Royale que puede
+                    obtenerse a partir de la arena 5.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./script/script.js">
+
+    </script>
+</body>
+
+</html>
